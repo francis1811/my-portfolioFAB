@@ -3,38 +3,87 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me</title>
+  <title>Francis Blay Andoh | Web & Graphic Designer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    
-    <h1>About<span style="color:#fff;">Me</span>.</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Service</a>
-      <a href="#">Portfolio</a>
-      <a href="#">Resume</a>
-      <a href="#">Blog</a>
-      <a href="#">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>Francis Blay Andoh</h1>
+      <p>Web Developer | Graphic Designer | UI/UX Enthusiast</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <p style="color: #facc15;">Hello, Welcome</p>
-      <h2>Francis Blay Andoh</h2>
-      <p>
-        I'm a passionate web developer focused on building modern, responsive websites and web applications.
-      </p>
-      <button class="btn">Contact Me</button>
-    </div>
-    <div class="hero-img">
-      <img src="profile-pic (6).png" alt="Profile Photo" />
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile-pic (6).png" alt="Francis Blay Andoh" class="profile-image" />
+        <p>
+          I'm a passionate IT professional with 4+ years of experience in graphic design, web development, and building interactive web applications. I create visually appealing, user-friendly websites and digital experiences.
+        </p>
+      </div>
     </div>
   </section>
 
+  <section id="skills" class="section dark">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Web Design</li>
+        <li>Graphic Design (Photoshop, Illustrator)</li>
+        <li>React & Vue.js</li>
+        <li>UI/UX Prototyping</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio to showcase my web and design projects. Built with HTML, CSS, and JS.</p>
+        </div>
+        <div class="project">
+          <h3>E-commerce UI</h3>
+          <p>Designed and developed a complete UI/UX for an online tech store using React and CSS frameworks.</p>
+        </div>
+        <div class="project">
+          <h3>Logo Design Collection</h3>
+          <p>A curated collection of custom logos designed for startups and tech companies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section dark">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me via email or connect on LinkedIn!</p>
+      <ul>
+        <li>Email: francisandoblay@gmail.com</li>
+        <li>LinkedIn: linkedin.com/in/johndoe</li>
+        <li>GitHub: github.com/francisandohblay</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 francis Blay Andoh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
